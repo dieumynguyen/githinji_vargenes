@@ -11,4 +11,6 @@ Published datasets from the paper are in folder "paper_datasets." Some figures f
 "Githinji_2017_Reproduce.ipynb" includes all Python code. "writeup" contains a review of the reproducibility of this paper.
 <br>
 <br>
-"webweb" contains webwebpy module to visualize networks. - Credit to Dan Larremore & Michael Iuzzolino
+"webweb" contains webwebpy module to visualize networks. - Credit to 	[Dan Larremore](http://danlarremore.com/webweb/) & [Michael Iuzzolino](http://michael-iuzzolino.com/)
+
+
