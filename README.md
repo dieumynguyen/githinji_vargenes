@@ -1,4 +1,4 @@
-2017-2018 IQ Biology Rotation Project II - CU Boulder
+2017-2018 IQ Biology Rotation Project II - CU Boulder <br>
 Advisor: Dr. Dan Larremore
 
 Reproduction of methods & figures in this paper: <br>
