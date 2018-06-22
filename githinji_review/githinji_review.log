@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  21 JUN 2018 19:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  22 JUN 2018 14:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -406,19 +406,7 @@ Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 31.
 Class revtex4-1 Info: cite was not loaded (OK!) on input line 31.
 Class revtex4-1 Info: mcite was not loaded (OK!) on input line 31.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 31.
-(./githinji_review.aux
-
-LaTeX Warning: Label `cp' multiply defined.
-
-)
-Runaway argument?
-{{8}{8}{{\bf Various \dbla tag classifications mapped onto the block-\ETC.
-./githinji_review.tex:31: File ended while scanning use of \@newl@bel.
-<inserted text> 
-                \par 
-l.31 \begin{document}
-                     
-? 
+(./githinji_review.aux)
 \openout1 = `githinji_review.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
@@ -436,6 +424,7 @@ LaTeX Font Info:    ... okay on input line 31.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
 LaTeX Font Info:    ... okay on input line 31.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 31.
+
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
@@ -537,225 +526,103 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 48.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 52.
-<figures/overview_var.pdf, id=11, 1927.2pt x 782.925pt>
+<figures/overview_var.pdf, id=68, 1927.2pt x 782.925pt>
 File: figures/overview_var.pdf Graphic file (type pdf)
 <use figures/overview_var.pdf>
-Package pdftex.def Info: figures/overview_var.pdf  used on input line 58.
+Package pdftex.def Info: figures/overview_var.pdf  used on input line 54.
 (pdftex.def)             Requested size: 505.89pt x 205.51492pt.
-
-Overfull \hbox (1042.62451pt too wide) in paragraph at lines 59--59
-[]\OT1/ptm/m/n/9 FIG. 1. [] [[]DM: Overview of \OT1/ptm/m/it/9 var\OT1/ptm/m/n/
-9 -encoded PfEMP1.[]] XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
- []
-
-<figures/cys_cp_counts.pdf, id=18, 433.61798pt x 558.9743pt>
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 55.
+<figures/cys_cp_counts.pdf, id=69, 433.61798pt x 558.9743pt>
 File: figures/cys_cp_counts.pdf Graphic file (type pdf)
 <use figures/cys_cp_counts.pdf>
-Package pdftex.def Info: figures/cys_cp_counts.pdf  used on input line 72.
+Package pdftex.def Info: figures/cys_cp_counts.pdf  used on input line 63.
 (pdftex.def)             Requested size: 243.94499pt x 314.47343pt.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 81.
+<figures/pspb.pdf, id=70, 1927.2pt x 389.455pt>
+File: figures/pspb.pdf Graphic file (type pdf)
+<use figures/pspb.pdf>
+Package pdftex.def Info: figures/pspb.pdf  used on input line 72.
+(pdftex.def)             Requested size: 505.89pt x 102.23048pt.
+<figures/network_struct.png, id=71, 531.6663pt x 536.2434pt>
+File: figures/network_struct.png Graphic file (type png)
+<use figures/network_struct.png>
+Package pdftex.def Info: figures/network_struct.png  used on input line 81.
+(pdftex.def)             Requested size: 195.15672pt x 196.83592pt.
+<figures/dbla_bars.pdf, id=73, 1782.66pt x 1505.625pt>
+File: figures/dbla_bars.pdf Graphic file (type pdf)
+<use figures/dbla_bars.pdf>
+Package pdftex.def Info: figures/dbla_bars.pdf  used on input line 90.
+(pdftex.def)             Requested size: 505.89pt x 427.26967pt.
+<figures/cas_bars.pdf, id=74, 1748.59279pt x 1405.25pt>
+File: figures/cas_bars.pdf Graphic file (type pdf)
+<use figures/cas_bars.pdf>
+Package pdftex.def Info: figures/cas_bars.pdf  used on input line 99.
+(pdftex.def)             Requested size: 480.59395pt x 386.2198pt.
+<figures/cidr_bars.pdf, id=75, 1780.55215pt x 1566.01064pt>
+File: figures/cidr_bars.pdf Graphic file (type pdf)
+<use figures/cidr_bars.pdf>
+Package pdftex.def Info: figures/cidr_bars.pdf  used on input line 108.
+(pdftex.def)             Requested size: 505.89pt x 444.93175pt.
+<figures/8_networks.pdf, id=76, 1415.42804pt x 2605.01233pt>
+File: figures/8_networks.pdf Graphic file (type pdf)
+<use figures/8_networks.pdf>
+Package pdftex.def Info: figures/8_networks.pdf  used on input line 118.
+(pdftex.def)             Requested size: 303.53708pt x 558.63577pt.
 
-Package natbib Warning: Citation `github' on page 1 undefined on input line 81.
 
+LaTeX Warning: Float too large for page by 10.51921pt on input line 121.
+
+<figures/dc8_network.png, id=77, 1800.2457pt x 894.9435pt>
+File: figures/dc8_network.png Graphic file (type png)
+<use figures/dc8_network.png>
+Package pdftex.def Info: figures/dc8_network.png  used on input line 127.
+(pdftex.def)             Requested size: 243.94499pt x 121.26279pt.
+<figures/roc.pdf, id=78, 867.24pt x 650.43pt>
+File: figures/roc.pdf Graphic file (type pdf)
+<use figures/roc.pdf>
+Package pdftex.def Info: figures/roc.pdf  used on input line 136.
+(pdftex.def)             Requested size: 505.89pt x 379.42317pt.
+
+Underfull \hbox (badness 1210) in paragraph at lines 149--150
+[]\OT1/ptm/m/n/10 PfEMP1 molecules are made up of two to nine do-
+ []
+
+
+Underfull \hbox (badness 2591) in paragraph at lines 149--150
+\OT1/ptm/m/n/10 mains: N-terminal seg-ment (NTS), Duffy binding-like
+ []
 
 [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 90.
+(hyperref)                removing `math shift' on input line 168.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 90.
+(hyperref)                removing `\alpha' on input line 168.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 90.
+(hyperref)                removing `math shift' on input line 168.
 
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 91.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 169.
+
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Underfull \hbox (badness 1590) in paragraph at lines 95--97
-\OT1/ptm/m/n/10 cys-teines and 2) mo-tifs lo-cated at po-si-tions of lim-ited
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 95--97
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--104
+Underfull \hbox (badness 10000) in paragraph at lines 182--188
 
  []
-
-<figures/pspb.jpeg, id=59, 1069.9975pt x 192.72pt>
-File: figures/pspb.jpeg Graphic file (type jpg)
-<use figures/pspb.jpeg>
-Package pdftex.def Info: figures/pspb.jpeg  used on input line 111.
-(pdftex.def)             Requested size: 505.89pt x 91.11655pt.
-
-LaTeX Warning: Reference `networks' on page 2 undefined on input line 119.
 
 [2 <./figures/overview_var.pdf>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 120.
-
-<figures/network_struct.png, id=116, 531.6663pt x 536.2434pt>
-File: figures/network_struct.png Graphic file (type png)
-<use figures/network_struct.png>
-Package pdftex.def Info: figures/network_struct.png  used on input line 126.
-(pdftex.def)             Requested size: 195.15672pt x 196.83592pt.
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 135.
+ on input line 188.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\alpha' on input line 135.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 135.
-
-<figures/dbla_bars.pdf, id=121, 1782.66pt x 1505.625pt>
-File: figures/dbla_bars.pdf Graphic file (type pdf)
-<use figures/dbla_bars.pdf>
-Package pdftex.def Info: figures/dbla_bars.pdf  used on input line 143.
-(pdftex.def)             Requested size: 505.89pt x 427.26967pt.
-<figures/cas_bars.pdf, id=122, 1748.59279pt x 1405.25pt>
-File: figures/cas_bars.pdf Graphic file (type pdf)
-<use figures/cas_bars.pdf>
-Package pdftex.def Info: figures/cas_bars.pdf  used on input line 152.
-(pdftex.def)             Requested size: 480.59395pt x 386.2198pt.
-<figures/cidr_bars.pdf, id=123, 1780.55215pt x 1566.01064pt>
-File: figures/cidr_bars.pdf Graphic file (type pdf)
-<use figures/cidr_bars.pdf>
-Package pdftex.def Info: figures/cidr_bars.pdf  used on input line 161.
-(pdftex.def)             Requested size: 505.89pt x 444.93175pt.
-<figures/8_networks.pdf, id=130, 1415.42804pt x 2605.01233pt>
-File: figures/8_networks.pdf Graphic file (type pdf)
-<use figures/8_networks.pdf>
-Package pdftex.def Info: figures/8_networks.pdf  used on input line 175.
-(pdftex.def)             Requested size: 303.53708pt x 558.63577pt.
-
-LaTeX Warning: Float too large for page by 10.51921pt on input line 178.
-
-
-LaTeX Warning: Reference `networks' on page 3 undefined on input line 183.
-
-[3 <./figures/cys_cp_counts.pdf>]
-<figures/dc8_network.png, id=188, 1800.2457pt x 894.9435pt>
-File: figures/dc8_network.png Graphic file (type png)
-<use figures/dc8_network.png>
-Package pdftex.def Info: figures/dc8_network.png  used on input line 188.
-(pdftex.def)             Requested size: 243.94499pt x 121.26279pt.
-<figures/roc.pdf, id=189, 867.24pt x 650.43pt>
-File: figures/roc.pdf Graphic file (type pdf)
-<use figures/roc.pdf>
-Package pdftex.def Info: figures/roc.pdf  used on input line 197.
-(pdftex.def)             Requested size: 505.89pt x 379.42317pt.
-
-
-LaTeX Warning: Reference `dc8' on page 4 undefined on input line 203.
-
-
-LaTeX Warning: Reference `roc' on page 4 undefined on input line 207.
-
-
-LaTeX Warning: Reference `roc' on page 4 undefined on input line 207.
-
-
-LaTeX Warning: Reference `roc' on page 4 undefined on input line 207.
-
-[4 <./figures/pspb.jpeg> <./figures/network_struct.png>]
-Underfull \hbox (badness 5847) in paragraph at lines 220--221
-\OT1/ptm/m/n/10 All Python code and rel-e-vant datasets are avail-able
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 220--221
-\OT1/ptm/m/n/10 at: [][]$\OT1/pcr/m/n/10 https : / / github . com / dieumynguye
-n /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 220--221
-
- []
-
-
-Underfull \hbox (badness 5064) in paragraph at lines 222--224
-\OT1/ptm/m/n/10 Webweb net-work cre-ator is avail-able at: [][]$\OT1/pcr/m/n/10
- http : / /
- []
-
-(./githinji_review.bbl [5 <./figures/dbla_bars.pdf>] [6 <./figures/cas_bars.pdf
->]
-Underfull \hbox (badness 10000) in paragraph at lines 71--76
- []\OT1/ptm/m/sc/9 Vazquez-Macias, A., Martinez-Cruz, P.,
- []
-
-
-Underfull \hbox (badness 1199) in paragraph at lines 71--76
- \OT1/ptm/m/sc/9 Castaneda-Patlan, M., and et al\OT1/ptm/m/n/9 .  A dis-tinct 5
-'
- []
-
-)
-
-Package natbib Warning: There were undefined citations.
-
-[7 <./figures/cidr_bars.pdf>] [8 <./figures/8_networks.pdf>] [9 <./figures/dc8_
-network.png> <./figures/roc.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 229.
- (./githinji_review.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 229.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 229.
-
-
-Package rerunfilecheck Warning: File `githinji_review.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `githinji_review.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  3AC5BAD15D35FE46EAB77B229F205C9F;1089.
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
-Here is how much of TeX's memory you used:
- 8901 strings out of 492649
- 126583 string characters out of 6129622
- 257533 words of memory out of 5000000
- 12594 multiletter control sequences out of 15000+600000
- 28901 words of font info for 65 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 32i,8n,31p,1846b,492s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2018/texmf-dist/fonts/type1/public/stix/STIXGeneral-Italic.pfb></usr/loc
-al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/loca
-l/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/
-texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/te
-xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texl
-ive/2018/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2018
-/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dis
-t/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/ty
-pe1/urw/times/utmri8a.pfb>
-Output written on githinji_review.pdf (9 pages, 26851871 bytes).
-PDF statistics:
- 111780 PDF objects out of 114338 (max. 8388607)
- 55448 compressed objects within 555 object streams
- 49 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+Package hyperref 
