@@ -11,7 +11,6 @@
 \usepackage{amsthm}
 \usepackage{hyperref}
 \usepackage{xspace}
-
 \hypersetup{bookmarks=true, unicode=false, pdftoolbar=true, pdfmenubar=true, pdffitwindow=false, pdfstartview={FitH}, pdfcreator={Daniel Larremore}, pdfproducer={Daniel Larremore}, pdfkeywords={} {} {}, pdfnewwindow=true, colorlinks=true, linkcolor=red, citecolor=Green, filecolor=magenta, urlcolor=cyan,}
 
 \newcommand{\dieumy}[1]{\textcolor{ForestGreen}{#1}}
@@ -27,6 +26,7 @@
 \newcommand{\cp}{{Cys/PoLV}\xspace}
 \newcommand{\paper}{{Githinji \& Bull}\xspace}
 \newcommand{\figdir}{figures/}
+
 
 \begin{document}
 %%%%%%%%%% Authors
@@ -48,11 +48,15 @@ The malaria-causing parasite \textit{Plasmodium falciparum}'s virulence factor (
 \maketitle
 %%%%%%%%%% Content
 
+
+%%%
+\section{Introduction} 
+
 %%%
 \begin{figure*}[t]
 	\centering
 	\includegraphics[width=1.0\linewidth]{\figdir overview_var.pdf}
-	\caption{\textbf{Overview of \pfem,} the \textit{Plasmodium falciparum} virulence factor encoded by \textit{var} genes. \pfem molecules are usually made up of two to nine domains: N-terminal segment (NTS), Duffy binding-like (DBL), cysteine-rich inter-domain region (CIDR), transmembrane (TM), and the intracellular acidic terminal segment (ATS) domains. The \dbla subdomain, called "tag," can be classified by two methods: 1) the \cp groups based on number of cysteines and the presence either (or neither) motif MFK or REY, 2) block-sharing groups based on sequences sharing position-specific polymorphic blocks (PSPBs). This diagram shows an example \dbla tag sequence, with the PSPBs highlighted in blue, the two cysteines in pink, and the motif MFK belonfing to PoLV group 1 in orange.}
+	\caption{\textbf{Overview of \pfem,} the \textit{Plasmodium falciparum} virulence factor encoded by \textit{var} genes. \pfem molecules are usually made up of two to nine domains: N-terminal segment (NTS), Duffy binding-like (DBL), cysteine-rich inter-domain region (CIDR), transmembrane (TM), and the intracellular acidic terminal segment (ATS) domains. The \dbla subdomain, called ``tag," can be classified by two methods: 1) the \cp groups based on number of cysteines and the presence of either (or neither) motif MFK or REY, 2) block-sharing groups based on sequences sharing position-specific polymorphic blocks (PSPBs). This diagram shows an example \dbla tag sequence, with the PSPBs highlighted in blue, the two cysteines in pink, and the motif MFK belonging to PoLV group 1 in orange.}
 	\label{overview}
 \end{figure*}
 %%%
@@ -61,7 +65,7 @@ The malaria-causing parasite \textit{Plasmodium falciparum}'s virulence factor (
 \begin{figure}[t]
 	\centering
 	\includegraphics[width=1.0\linewidth]{\figdir cys_cp_counts.pdf}
-	\caption{ \dieumycom{Figure caption} \textbf{(A)} Number of \dbla\ sequences in each Cys group.  \textbf{(B)} Comparisons of sequence lengths (based on number of amino acids) of \dbla sequences in different \cp groups.}
+	\caption{ \textbf{Analysis of the \cp classification of \dbla tags.} \textbf{(A)} Number of \dbla\ sequences in each Cys group.  \textbf{(B)} Comparisons of sequence lengths (based on number of amino acids) of \dbla sequences in different \cp groups.}
 	\label{cp}
 \end{figure}
 %%%
@@ -88,7 +92,7 @@ The malaria-causing parasite \textit{Plasmodium falciparum}'s virulence factor (
 \begin{figure*}[t]
 	\centering
 	\includegraphics[width=1.0\linewidth]{\figdir dbla_bars.pdf}
-	\caption{{\bf Correspondence between \var sequence classifications and presence of specific \dbla domains}. \var sequences are classified based on \dbla domains (horizontal axis) they contain. The proportion of the genes carrying other sequence features (ups, \cp, block-sharing groups, select homology blocks) is shown on the vertical axis. Like in \paper, the \dbla domains are, from left to right, in order of decreasing upsA sequences.}
+	\caption{{\bf Correspondence between \var sequence classifications and presence of specific \dbla domains}. \var sequences are classified based on \dbla domains (horizontal axis) they contain. The proportion of the genes carrying other sequence features (UPS, \cp, block-sharing groups, select homology blocks) is shown on the vertical axis. Like in \paper, the \dbla domains are, from left to right, in order of decreasing UPSA sequences.}
 	\label{dbla_bars}
 \end{figure*}
 %%%
@@ -97,7 +101,7 @@ The malaria-causing parasite \textit{Plasmodium falciparum}'s virulence factor (
 \begin{figure*}[t]
 	\centering
 	\includegraphics[width=0.95\linewidth]{\figdir cas_bars.pdf}
-	\caption{{\bf Correspondence between \var sequence classifications and presence of specific domain cassettes (DCs). \var sequences are classified based on DCs (horizontal axis) they contain}. The proportion of the genes carrying other sequence features (ups, \cp, block-sharing groups, select homology blocks) is shown on the vertical axis. Like in \paper, the DCs are, from left to right, in order of decreasing upsA sequences. }
+	\caption{{\bf Correspondence between \var sequence classifications and presence of specific domain cassettes (DCs). \var sequences are classified based on DCs (horizontal axis) they contain}. The proportion of the genes carrying other sequence features (UPS, \cp, block-sharing groups, select homology blocks) is shown on the vertical axis. Like in \paper, the DCs are, from left to right, in order of decreasing UPSA sequences. }
 	\label{cas_bars}
 \end{figure*}
 %%%
@@ -106,18 +110,8 @@ The malaria-causing parasite \textit{Plasmodium falciparum}'s virulence factor (
 \begin{figure*}[t]
 	\centering
 	\includegraphics[width=1.0\linewidth]{\figdir cidr_bars.pdf}
-	\caption{{\bf Correspondence between \var sequence classifications and presence of specific CIDR1 domains. \var sequences are classified based on CIDR1 domains (horizontal axis) they contain}. The proportion of the genes carrying other sequence features (ups, \cp, block- sharing groups, select homology blocks) is shown on the vertical axis. Like in \paper, the CIDR1 domains are, from left to right, in order of decreasing upsA sequences. }
+	\caption{{\bf Correspondence between \var sequence classifications and presence of specific CIDR1 domains. \var sequences are classified based on CIDR1 domains (horizontal axis) they contain}. The proportion of the genes carrying other sequence features (UPS, \cp, block- sharing groups, select homology blocks) is shown on the vertical axis. Like in \paper, the CIDR1 domains are, from left to right, in order of decreasing UPSA sequences. }
 	\label{cidr_bars}
-\end{figure*}
-%%%
-
-
-%%%
-\begin{figure*}[t]
-	\centering
-	\includegraphics[width=0.6\linewidth]{\figdir 8_networks.pdf}
-	\caption{{\bf Various \dbla tag classifications mapped onto the block-sharing network}. (A) \cp analysis for all sequences; (B) BS analysis for all sequences; (C) ups grouping; (D) \cp analysis for full length \var gene sequences from 6 laboratory isolates; (E) BS analysis for full length \var gene sequences from 6 laboratory isolates; (F) domain cassette (DC) classification for DC4, DC5, DC8 and DC13; (G) predicted EPCR-binding phenotype due to \cidra1.1, \cidra1.4, \cidra1.5, \cidra1.6, \cidra1.7 or \cidra1.8 (Lau et al., 2015) for sequences with \cidra information available; (H) predicted CD36-binding phenotype due to \cidra2, \cidra3, \cidra4, \cidra5 (Robinson et al., 2003) for sequences with \cidra information available. Node colors: For all, unclassified = 0. (A\&D) red = CP1, purple = CP2, pink = CP3, green = CP4, yellow = CP5, brown = CP6. (B\& E) blue = BS1, green = BS2; (C) upsA = orange, green = upsB, blue = upsC; F) pink = DC8, purple = DC5, green = DC13, orange = DC4; G) orange = predicted EPCR binding; H) purple = predicted CD36 binding.}
-	\label{8_networks}
 \end{figure*}
 %%%
 
@@ -133,51 +127,45 @@ The malaria-causing parasite \textit{Plasmodium falciparum}'s virulence factor (
 %%%
 \begin{figure*}[t]
 	\centering
+	\includegraphics[width=0.6\linewidth]{\figdir 8_networks.pdf}
+	\caption{{\bf Various \dbla tag classifications mapped onto the block-sharing network}. (A) \cp analysis for all sequences; (B) BS analysis for all sequences; (C) UPS grouping; (D) \cp analysis for full length \var gene sequences from 6 laboratory isolates; (E) BS analysis for full length \var gene sequences from 6 laboratory isolates; (F) domain cassette (DC) classification for DC4, DC5, DC8 and DC13; (G) predicted EPCR-binding phenotype due to \cidra1.1, \cidra1.4, \cidra1.5, \cidra1.6, \cidra1.7 or \cidra1.8 (Lau et al., 2015) for sequences with \cidra information available; (H) predicted CD36-binding phenotype due to \cidra2, \cidra3, \cidra4, \cidra5 (Robinson et al., 2003) for sequences with \cidra information available. Node colors: For all, unclassified = 0. (A\&D) red = CP1, purple = CP2, pink = CP3, green = CP4, yellow = CP5, brown = CP6. (B\& E) blue = BS1, green = BS2; (C) UPSA = orange, green = UPSB, blue = UPSC; F) pink = DC8, purple = DC5, green = DC13, orange = DC4; G) orange = predicted EPCR binding; H) purple = predicted CD36 binding.}
+	\label{8_networks}
+\end{figure*}
+%%%
+
+%%%
+\begin{figure*}[t]
+	\centering
 	\includegraphics[width=1.0\linewidth]{\figdir roc.pdf}
-	\caption{{\bf Receiver operator curves showing the sensitivity (true positive rate) and specificity (false positive rate) of three \dbla tag classifications (cys2, cys2bs1, cys2bs1\_CP1) in predicting four \var gene features associated with malaria severity: upsA , DC8, DC13 , \cidra1.} Sequences from the genomes 3D7 and IT4 were excluded because they were used in developing the BS classification.  cys2 = two cysteines within the tag region; cys2bs1 = tag sequences in block-sharing group1 AND have two cysteines, defined as ``group A-like''; cys2bs1\_CP1 = cys2bs1 OR in \cp group 1.}
+	\caption{{\bf Receiver operator curves showing the sensitivity (true positive rate) and specificity (false positive rate) of three \dbla tag classifications (cys2, cys2bs1, cys2bs1\_CP1) in predicting four \var gene features associated with malaria severity: UPSA , DC8, DC13 , \cidra1.} Sequences from the genomes 3D7 and IT4 were excluded because they were used in developing the BS classification.  cys2 = two cysteines within the tag region; cys2bs1 = tag sequences in block-sharing group1 AND have two cysteines, defined as ``group A-like''; cys2bs1\_CP1 = cys2bs1 OR in \cp group 1.}
 	\label{roc_curves}
 \end{figure*}
 %%%
 
 
-%%%
-\section{Introduction} 
 The \textit{Plasmodium falciparum} parasite is the most lethal of the five \textit{Plasmodium} parasites responsible for malaria in humans. Once transmitted by the \textit{Anopheles} mosquito to humans, the parasite exports to the surface of an infected red blood cell (RBC) a virulence factor called \textit{Plasmodium falciparum} erythrocyte membrane protein 1 (\pfem) (Figure~\ref{overview}), which is the target of the host immune system in malaria infections \cite{chan2012}. The type of PfEMP1 present on the infected RBC plays a key role in the clinical severity of the infection. However, the parasite can produce antigenically different proteins by switching on and off about 60 different PfEMP1-encoding genes, called \var \cite{gardner2002}. The hyper-variant types of PfEMP1 have different binding properties to human endothelial receptors, and cause the immune system's antibodies to not always recognize the protein to kill the infected cell \cite{gardner2002}. Thus, dissecting PfEMP1 diversity is a problem with possible clinical significance. 
-
-
 
 PfEMP1 molecules are made up of two to nine domains: N-terminal segment (NTS), Duffy binding-like (DBL), cysteine-rich inter-domain region (CIDR), transmembrane (TM), and acidic terminal segment (ATS) domains \cite{rask2010} (See Figure~\ref{overview} for an overview diagram of the \pfem structure). The head structure of the protein contains DBL and CIDR domains that are known to mediate important binding properties of the parasite. Based on sequence similarity, the DBL and CIDR domains have been divided into subclasses ($\alpha, \beta, \gamma, \delta, \epsilon , \zeta$ and $\alpha, \beta, \gamma, \delta$ respectively) \cite{rask2010} . \cidra domains encode PfEMP1 binding to the host receptors called cluster determinant 36 (CD36) and endothelial protein C receptor (EPCR), which in turn are linked to particular clinical symptoms such as cerebral malaria \cite{hsieh2016}. A subset of \dbla domains are linked to rosetting, a process that causes infected RBCs to bind to uninfected RBCs and has been clinically linked to respiratory distress \cite{lau2015}. Understanding the structure and composition of PfEMP1 proteins by analyzing the diverse makeup of the \var genes that encode them is therefore critical to understanding malaria's abilities to evade the immune system and cause severe disease. 
 
+Many different approaches have been taken to categorize \var genes, which are characterized by their modular domain structure and diversity, in an effort to understand how \var categories might represent functional or evolutionarily important groups. Based on full-length sequences from seven \pf parasites, \var genes have been classified by multiple structural characteristics. The upstream promoter sequence (UPS) classification divides the sequences into groups A-E \cite{rask2010, vazquez2002}. Domain alignment of full-length sequences yields 23 \var ``domain cassettes'' (DCs), some of which are linked to clearly defined functions, such as DC8 \var gene proteins binding to brain endothelial cells. 
 
-Many different approaches have been taken to categorize \var genes, which are characterized by their modular domain structure and diversity, in an effort to understand how \var categories might represent functional or evolutionarily important groups. Based on full-length sequences from seven \pf parasites, \var genes have been classified by multiple structural characteristics. The upstream promoter sequence (ups) classification divides the sequences into groups A-E \cite{rask2010, vazquez2002}. Domain alignment of full-length sequences yields 23 \var ``domain cassettes'' (DCs), some of which are linked to clearly defined functions, such as DC8 \var gene proteins binding to brain endothelial cells. 
-
-
-
-Past studies have also explored the classification of short PCR-derived sequences from the DBL domain, called "tags." The first approach involves grouping the tag sequences based on the number of cysteines and the mutually exclusive motifs MFK and REY \cite{bull2007}. These groups are called cys/positions of limited variability (\cp) groups. The second approach uses network analysis to group together the sequences that share blocks of sequence (position-specific polymorphic blocks, or PSPBs) with each other, with the two prominent groups being block-sharing groups 1 and 2 (BS1 and BS2) \cite{bull2008}. \dieumycom{Figure~\ref{overview} shows an example \dbla tag sequence with labeled PSPBs, cysteines, and a PoLV motif, MFK}.
-
+Past studies have also explored the classification of short PCR-derived sequences from the DBL domain, called "tags." The first approach involves grouping the tag sequences based on the number of cysteines and the mutually exclusive motifs MFK and REY \cite{bull2007}. These groups are called cys/positions of limited variability (\cp) groups. The second approach uses network analysis to group together the sequences that share blocks of sequence (position-specific polymorphic blocks, or PSPBs) with each other, with the two prominent groups being block-sharing groups 1 and 2 (BS1 and BS2) \cite{bull2008}. \dieumycom{Figure~\ref{overview} shows an example \pfem structure with its \dbla sequence with labeled PSPBs, cysteines, and a PoLV motif, MFK}.
 
 In total, there are four common classification schemes for \var genes, and two additional schemes for \dbla tags. In an effort to map the similarities and differences among these various classifications, \paper 2017 \cite{githinji2017} assessed the relationships between \dbla tag classifications and the features of full-length \var gene sequences. They showed in detail that tag features and full-length \var features are mutually related in various ways. Here, we aim to reproduce the results of this paper, provide open Python code for the two approaches the authors have used to classify the \dbla tags (\cp and block-sharing group classifications), and reproduce all figures presented in the paper. We also refer to \cite{bull2008, bull2007} and \cite{rask2010} for more details on methods for \dbla tag and full sequence classifications used in \paper \cite{githinji2017}. 
 
-This replication effort is the result of a two-month rotation project for the Interdisciplinary Quantitative Biology program at the University of Colorado Boulder. Replication code is written in Python 3.6.2 and network visualizations were done in webweb (See Code Repository). 
+This replication effort is the result of a two-month rotation project for the Interdisciplinary Quantitative Biology program at the University of Colorado Boulder. Replication code is written in Python 3.6.2 and network visualizations were done in webweb (See Code Repository).
 %%%
 
 
 %%%
 \section{Methods \& Results}
-
 \subsection{\dbla\ tag classifications}
-We first explored the two different approaches that the authors have used to classify \dbla tags in previous papers, referred to as \cp \cite{bull2007} and block-sharing groups \cite{bull2008}. For both approaches, we obtained the 1548 \dbla sequences from the file ``1548\_tags.fa'' from the authors' Open Science Framework (OSF) storage \url{https://osf.io/uwcn2/} under ``datasets.''  
-
-
+We first explored the two different approaches that the authors have used to classify \dbla tags in previous papers, referred to as \cp \cite{bull2007} and block-sharing groups \cite{bull2008}. For both approaches, we obtained the 1548 \dbla sequences from the file ``1548\_tags.fa'' from the authors' Open Science Framework (OSF) storage \footnote{\url{https://osf.io/uwcn2/}} under ``datasets.''  
 
 \subsubsection{\cp classification}
-\dieumycom{I think we can used the figure to show what the original authors saw: the different groups have different Cys counts, and therefore they may be separately recombining groups.
-Further investigation showed that there were these two mutually-exclusive MFK/REY motifs, which reinforced the idea that the DBLa tags might be reasonably divided into intra-mixing but not inter-mixing groups.
-So? I thought this is a little more of a story to bring the reader through the process of discovery. For me, this is easier to read and absorb.}
+\dieumycom{Bull et al. 2007 observed that different tags have different number of cysteines (with 2 and 4 being the most frequent counts), indicating that tags may be classified into separately recombining groups. Further investigation showed that there were two mutually-exclusive motifs (MFK and REY) that may be present or absent in \dbla sequences, reinforcing the idea that the tags may be divided into intra-mixing but not inter-mixing groups.  \cite{bull2007}}
 
-
-
-The \cp approach, described in detail in \cite{bull2007}, involves extracting two features from each tag: 1) the number of cysteines and 2) motifs located at positions of limited variability (PoLV) -- in particular, the presence or absence of mutually exclusive motifs MFK at PoLV1 and REY at PoLV2. As seen in Figure~\ref{cp}A, cys2 and cys4 groups have the most \dbla sequences, explaining the rationale behind the use of the two cys groups as the main groups for the \cp classifications. The sequences are further grouped into six \cp groups based on the \cite{bull2007}'s definitions:  \\
+Thus, the \cp approach, described in detail in \cite{bull2007}, involves extracting two features from each tag: 1) the number of cysteines and 2) motifs located at positions of limited variability (PoLV) -- in particular, the presence or absence of mutually exclusive motifs MFK at PoLV1 and REY at PoLV2. As seen in Figure~\ref{cp}A, cys2 and cys4 groups have the most \dbla sequences, explaining the rationale behind the use of the two cys groups as the main groups for the \cp classifications. The sequences are further grouped into six \cp groups based on the \cite{bull2007}'s definitions (an asterisk denotes any amino acid):  \\
 
 \noindent Group 1: cys2, MFK* motif present at PoLV1  \\
 Group 2: cys2, *REY motif present at PoLV2   \\
@@ -186,36 +174,30 @@ Group 4: cys4, not group 5   \\
 Group 5: cys4, *REY motif present at PoLV2  \\
 Group 6: cys1, 3, 5, or $>$5  \\
 
-Bull et al. 2007 \cite{bull2007} hypothesized that groups of genetically isolated sequences that do not recombine with other groups maintain distinct distributions in sequence length. If the \cp grouping based on some sequence similarities is accurate, the sequences in each group should have similar lengths. As expected, we confirm this, finding that the lengths of the sequences are similar within groups, and that groups follow a similar distribution of lengths (Figure~\ref{cp}B).   
-
+Bull et al. 2007 \cite{bull2007} hypothesized that groups of genetically isolated sequences that do not recombine with other groups maintain distinct distributions in sequence length. If the \cp grouping based on some sequence similarities is accurate, the sequences in each group should have similar lengths. As expected, we confirm this finding that the lengths of the sequences are similar within groups, and that groups follow a similar distribution of lengths (Figure~\ref{cp}B).   
 
 \subsubsection{Block-sharing network\& classification}
 
 While \cp groupings classify sequences based on features of individual sequences, the BS network approach classifies sequences based on their relationships \cite{bull2008}. For each sequence, we identify four polymorphic blocks at fixed locations based on three conserved anchor points which are annotated in Figure~\ref{pspb} (similar to \cite{bull2008} Figure 1B): D at the beginning, WW (or W followed by another amino acid) in the middle, and R at the end of the sequence. Each 10-amino acid (aa) block is a ``position-specific polymorphic block'' (PSPB). These PSPBs are then used to construct a ``block-sharing network'' structure, in which each node represents a sequence, and two nodes are linked if their corresponding sequences match at one or more PSPBs. Edges are not weighted in regard to number of shared PSPBs. The network structure is shown in Figure~\ref{struct}, in which we can observe that the network has two prominent lobes: a large one in the center and a smaller one on the right of large lobe \cite{bull2008} \cite{githinji2017}. When only links of 14-aa or more are considered, the network of \dbla tags from Kenyan children \cite{bull2008} fragments into two large components, which have been annotated as block-sharing group 1 (BS1) and 2 (BS2), shown in Figure~\ref{8_networks}.  
 
-
 From the perspective of reproducibility, we note that partitioning the sequences into BS1 and BS2 was challenging. Figure 4C from Bull et al. 2008 \cite{bull2008} shows the network components obtained by using 14-aa long PSPBs, giving seven block-sharing groups, of which the two most prominent ones (BS1 and BS2) are used for sequence classifications in \paper. We could not find more details on how to identify the seven BS groups, so we followed the Perl script (``mmi0068-1519-SD3.pl'') from \cite{bull2008} to assign sequences to BS1, BS2, or neither. In this way, the block-sharing groups are hard-coded within the Perl script, but cannot be reproduced \textit{de novo}.  
 
-
 \subsection{Full-length \var gene sequence classifications}
-In \paper \cite{githinji2017}, the authors obtained full-length \var genes classifications from the literature, notably \cite{rask2010}. These classifications include: 33 \dbla subdomains (DBLa 0.1-0.24, \dbla 1.1-1.8 and DBLa2), 5 ups groups (A-E), 628 homology blocks (HB), and 23 domain cassettes (DC). Some of these classes have been associated with severe malaria and are further discussed below. 
+In \paper \cite{githinji2017}, the authors obtained full-length \var genes classifications from the literature, notably \cite{rask2010}. These classifications include: 33 \dbla subdomains (DBLa 0.1-0.24, \dbla 1.1-1.8 and DBLa2), 5 UPS groups (A-E), 628 homology blocks (HB), and 23 domain cassettes (DC). Some of these classes have been associated with severe malaria and are further discussed below. 
 
 \subsection{Figures: Relationships between \dbla tags and full-length \var sequences}
 Below is our reproduction of the figures in \paper in the same order as the paper. Because we've confirmed above that the \cp and block-sharing classifications were successfully reproduced, for the visualizations below, we use the data from \paper file ``curated\_data\_set.csv'' (also on OSF Storage under ``datasets'') because it also includes full-length \var gene classifications from \cite{rask2010} and other sources that we otherwise do not have access to. 
 
-
 \subsubsection{Bar graphs}
-The bar graphs provide a straightforward visualization of the relationship between different \var gene classifications (upstream promoter sequence (ups), \cp, BS, and HB and the specific \dbla domains, CIDR1 domains, and domain cassettes (DCs) contained in the sequences. We use the same color scheme and arrangement of information (in decreasing upsA order) as the authors did, for easy comparison. Overall, the bar graphs below (Figures~\ref{dbla_bars}, ~\ref{cas_bars}, and ~\ref{cidr_bars}) are identical to those in \paper Figure 1-3. As seen across the 3 figures, BS1 sequences are closely associated with upsA, while BS2 sequences with upsB and upsC. Most cys2 sequences (CP groups 1-3) are found in upsA sequences, but some are also found in upsB and upsC. Furthermore, DC8 cassettes, which are associated with severe malaria \cite{lavstsen2012, rask2010}, tend to contain CP groups 2, 3, and 4 as well as most of the BS2 tags. This is consistent with the clinical finding of DC8-like sequences in two severe cases of malaria in Kenya \cite{bull2005}. Although this is based on limited information, as \paper suggests, these findings may imply that \var genes sampled from Africa may commonly share BS2 sequences. 
+The bar graphs provide a straightforward visualization of the relationship between different \var gene classifications (upstream promoter sequence (UPS), \cp, BS, and HB and the specific \dbla domains, CIDR1 domains, and domain cassettes (DCs) contained in the sequences. We use the same color scheme and arrangement of information (in decreasing UPSA order) as the authors did, for easy comparison. Overall, the bar graphs below (Figures~\ref{dbla_bars}, ~\ref{cas_bars}, and ~\ref{cidr_bars}) are identical to those in \paper Figure 1-3. As seen across the 3 figures, BS1 sequences are closely associated with UPSA, while BS2 sequences with UPSB and UPSC. Most cys2 sequences (CP groups 1-3) are found in UPSA sequences, but some are also found in UPSB and UPSC. Furthermore, DC8 cassettes, which are associated with severe malaria \cite{lavstsen2012, rask2010}, tend to contain CP groups 2, 3, and 4 as well as most of the BS2 tags. This is consistent with the clinical finding of DC8-like sequences in two severe cases of malaria in Kenya \cite{bull2005}. Although this is based on limited information, as \paper suggests, these findings may imply that \var genes sampled from Africa may commonly share BS2 sequences. 
 
 \subsubsection{Network visualizations}
-Built on the analysis in Bull et al. 2008 \cite{bull2008}, the network visualizations in \paper Figures 4 and 5 provide information on how specific subsets of full-length \var sequences are mapped onto the network based on the sharing of PSPBs by the \dbla tags. In Figure~\ref{8_networks}, we show our network analyses of several classifications: \cp, block-sharing groups, UPS, DC (4,5,8,13), predicted EPCR binding, and CD36-binding. The clustering tendencies of the tag sequences in our networks are similar to those in \paper Figure 4. Consistent with the bar graph analysis, DC8 sequences occupy the same region of the network as upsB and upsC sequences.  
+Built on the analysis in Bull et al. 2008 \cite{bull2008}, the network visualizations in \paper Figures 4 and 5 provide information on how specific subsets of full-length \var sequences are mapped onto the network based on the sharing of PSPBs by the \dbla tags. In Figure~\ref{8_networks}, we show our network analyses of several classifications: \cp, block-sharing groups, UPS, DC (4,5,8,13), predicted EPCR binding, and CD36-binding. The clustering tendencies of the tag sequences in our networks are similar to those in \paper Figure 4. Consistent with the bar graph analysis, DC8 sequences occupy the same region of the network as UPSB and UPSC sequences.  
 
 Figure~\ref{dc8_network} shows the analysis of the \dbla tags from \var genes with DC8 cassettes. We are able to reproduce the largest connected component (star-shaped), the three groups outside of this largest component, and the isolated nodes/sequences shown in \paper Figure 5. We also show the same results for the block-sharing group classification of each sequence, color-coded in the figure.
 
-
 \subsubsection{Receiver operator characteristic curves}
-When evaluating the quality of a parameterized prediction scheme, a common approach is to plot the relationship between sensitivity (false positives) and specificity (true positives). These curves, called receiver operator curves (or ROC curves [sic]), were used in \paper Figure 6 to illustrate how three \dbla tag classifications (cys2, cys2bs1, cys2bs\_CP1) predict four \var gene features (upsA \cite{warimwe2012}, DC8 \cite{lavstsen2012} \cite{rask2010}, DC13 \cite{warimwe2012}, \cidra1 \cite{turner2013}) which have been associated with malaria severity in previous papers. Our ROC curves in Figure~\ref{roc_curves}A, C, D are similar to those in \paper Figure 6A, C, D. As the authors noted, \cidra1 domains, which are associated with severe malaria due to binding to EPCR \cite{turner2013}, are associated with ``group A-like sequences'' (cys2bs1). Previous reports have also shown associations between subsets of cys2 sequence tags and DC8 and DC13 \var genes with severe disease phenotypes \cite{warimwe2012}. We reproduce this relationship between cys2 and DC13 in Figure~\ref{roc_curves}C. However, our ROC curves show higher sensitivity for predicting DC8 from cys2, and both lower sensitivity and lower specificity for predicting DC8 from cys2bs1 and cys2bs1\_CP1 such that these two curves are below the diagonal of the ROC space. (\paper Figure~\ref{roc_curves}B shows the ROC curves for the prediction of DC8 from cys2bs1 and cys2bs1\_CP1 as roughly lying on the 45$^{\circ}$ diagonal.) Together with our results, it seems that these two tag classifications are not highly accurate in providing prediction of the DC8 cassettes of \var genes. 
-
+When evaluating the quality of a parameterized prediction scheme, a common approach is to plot the relationship between sensitivity (false positives) and specificity (true positives). These curves, called receiver operator curves (or ROC curves [sic]), were used in \paper Figure 6 to illustrate how three \dbla tag classifications (cys2, cys2bs1, cys2bs\_CP1) predict four \var gene features (UPSA \cite{warimwe2012}, DC8 \cite{lavstsen2012} \cite{rask2010}, DC13 \cite{warimwe2012}, \cidra1 \cite{turner2013}) which have been associated with malaria severity in previous papers. Our ROC curves in Figure~\ref{roc_curves}A, C, D are similar to those in \paper Figure 6A, C, D. As the authors noted, \cidra1 domains, which are associated with severe malaria due to binding to EPCR \cite{turner2013}, are associated with ``group A-like sequences'' (cys2bs1). Previous reports have also shown associations between subsets of cys2 sequence tags and DC8 and DC13 \var genes with severe disease phenotypes \cite{warimwe2012}. We reproduce this relationship between cys2 and DC13 in Figure~\ref{roc_curves}C. However, our ROC curves show higher sensitivity for predicting DC8 from cys2, and both lower sensitivity and lower specificity for predicting DC8 from cys2bs1 and cys2bs1\_CP1 such that these two curves are below the diagonal of the ROC space. (\paper Figure~\ref{roc_curves}B shows the ROC curves for the prediction of DC8 from cys2bs1 and cys2bs1\_CP1 as roughly lying on the 45$^{\circ}$ diagonal.) Together with our results, it seems that these two tag classifications are not highly accurate in providing prediction of the DC8 cassettes of \var genes. 
 
 
 %%%
@@ -227,9 +209,7 @@ The figures and methods described in \paper are clear and easily understood, mak
 
 %%%
 \subsection*{Code Repository:}
-\noindent All Python code and relevant datasets are available at: \url{https://github.com/dieumynguyen/githinji_vargenes} \\
-
-\noindent Webweb network creator is available at: \url{http://danlarremore.com/webweb/}
+\noindent All Python code and relevant datasets are available at: \url{https://github.com/dieumynguyen/githinji_vargenes}. Webweb network creator is available at: \url{http://danlarremore.com/webweb/}
 %%%
 
 
